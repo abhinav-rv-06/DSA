@@ -1,7 +1,6 @@
 // Find the fine
 
 class Solution{
-  public:
     long long int totalFine(int n, int date, int car[], int fine[])
     {
         long long int sum = 0;
@@ -19,4 +18,4 @@ class Solution{
         }
         return sum;
     }
-};
+}
